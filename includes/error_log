@@ -1,0 +1,50 @@
+[01-Jan-2015 20:07:48 UTC] PHP Notice:  Use of undefined constant facebook - assumed 'facebook' in /home/hyuna/public_html/proxy/includes/settings.php on line 90
+[01-Jan-2015 20:07:48 UTC] PHP Stack trace:
+[01-Jan-2015 20:07:48 UTC] PHP   1. {main}() /home/hyuna/public_html/proxy/includes/process.php:0
+[01-Jan-2015 20:07:48 UTC] PHP   2. require() /home/hyuna/public_html/proxy/includes/process.php:17
+[01-Jan-2015 20:07:48 UTC] PHP   3. require() /home/hyuna/public_html/proxy/includes/init.php:58
+[01-Jan-2015 20:07:48 UTC] PHP Notice:  Use of undefined constant com - assumed 'com' in /home/hyuna/public_html/proxy/includes/settings.php on line 90
+[01-Jan-2015 20:07:48 UTC] PHP Stack trace:
+[01-Jan-2015 20:07:48 UTC] PHP   1. {main}() /home/hyuna/public_html/proxy/includes/process.php:0
+[01-Jan-2015 20:07:48 UTC] PHP   2. require() /home/hyuna/public_html/proxy/includes/process.php:17
+[01-Jan-2015 20:07:48 UTC] PHP   3. require() /home/hyuna/public_html/proxy/includes/init.php:58
+[02-Jan-2015 13:52:26 UTC] PHP Notice:  Use of undefined constant facebook - assumed 'facebook' in /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/settings.php on line 90
+[02-Jan-2015 13:52:26 UTC] PHP Stack trace:
+[02-Jan-2015 13:52:26 UTC] PHP   1. {main}() /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/process.php:0
+[02-Jan-2015 13:52:26 UTC] PHP   2. require() /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/process.php:17
+[02-Jan-2015 13:52:26 UTC] PHP   3. require() /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/init.php:58
+[02-Jan-2015 13:52:26 UTC] PHP Notice:  Use of undefined constant com - assumed 'com' in /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/settings.php on line 90
+[02-Jan-2015 13:52:26 UTC] PHP Stack trace:
+[02-Jan-2015 13:52:26 UTC] PHP   1. {main}() /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/process.php:0
+[02-Jan-2015 13:52:26 UTC] PHP   2. require() /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/process.php:17
+[02-Jan-2015 13:52:26 UTC] PHP   3. require() /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/init.php:58
+[02-Jan-2015 17:53:27 UTC] PHP Notice:  Use of undefined constant facebook - assumed 'facebook' in /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/settings.php on line 90
+[02-Jan-2015 17:53:27 UTC] PHP Stack trace:
+[02-Jan-2015 17:53:27 UTC] PHP   1. {main}() /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/process.php:0
+[02-Jan-2015 17:53:27 UTC] PHP   2. require() /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/process.php:17
+[02-Jan-2015 17:53:27 UTC] PHP   3. require() /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/init.php:58
+[02-Jan-2015 17:53:27 UTC] PHP Notice:  Use of undefined constant com - assumed 'com' in /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/settings.php on line 90
+[02-Jan-2015 17:53:27 UTC] PHP Stack trace:
+[02-Jan-2015 17:53:27 UTC] PHP   1. {main}() /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/process.php:0
+[02-Jan-2015 17:53:27 UTC] PHP   2. require() /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/process.php:17
+[02-Jan-2015 17:53:27 UTC] PHP   3. require() /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/init.php:58
+[20-Jan-2015 05:14:08 UTC] PHP Notice:  Use of undefined constant joshuawareing - assumed 'joshuawareing' in /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/settings.php on line 90
+[20-Jan-2015 05:14:08 UTC] PHP Stack trace:
+[20-Jan-2015 05:14:08 UTC] PHP   1. {main}() /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/process.php:0
+[20-Jan-2015 05:14:08 UTC] PHP   2. require() /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/process.php:17
+[20-Jan-2015 05:14:08 UTC] PHP   3. require() /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/init.php:58
+[20-Jan-2015 05:14:08 UTC] PHP Notice:  Use of undefined constant com - assumed 'com' in /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/settings.php on line 90
+[20-Jan-2015 05:14:08 UTC] PHP Stack trace:
+[20-Jan-2015 05:14:08 UTC] PHP   1. {main}() /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/process.php:0
+[20-Jan-2015 05:14:08 UTC] PHP   2. require() /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/process.php:17
+[20-Jan-2015 05:14:08 UTC] PHP   3. require() /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/init.php:58
+[21-Jan-2015 01:44:50 UTC] PHP Notice:  Use of undefined constant joshuawareing - assumed 'joshuawareing' in /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/settings.php on line 90
+[21-Jan-2015 01:44:50 UTC] PHP Stack trace:
+[21-Jan-2015 01:44:50 UTC] PHP   1. {main}() /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/process.php:0
+[21-Jan-2015 01:44:50 UTC] PHP   2. require() /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/process.php:17
+[21-Jan-2015 01:44:50 UTC] PHP   3. require() /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/init.php:58
+[21-Jan-2015 01:44:50 UTC] PHP Notice:  Use of undefined constant com - assumed 'com' in /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/settings.php on line 90
+[21-Jan-2015 01:44:50 UTC] PHP Stack trace:
+[21-Jan-2015 01:44:50 UTC] PHP   1. {main}() /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/process.php:0
+[21-Jan-2015 01:44:50 UTC] PHP   2. require() /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/process.php:17
+[21-Jan-2015 01:44:50 UTC] PHP   3. require() /home/hyuna/public_html/mysslproxy.co.uk/secure/includes/init.php:58
