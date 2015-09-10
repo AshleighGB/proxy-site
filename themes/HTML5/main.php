@@ -86,7 +86,7 @@ iVBORw0KGgoAAAANSUhEUgAAAVQAAAGvEAYAAABUV/EsAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7O
 				<?php foreach ($toShow as $option) echo '<li><input type="checkbox" name="'.$option['name'].'" id="'.$option['name'].'"'.$option['checked'].'><label for="'.$option['name'].'" class="tooltip" onmouseover="tooltip(\''.$option['escaped_desc'].'\')" onmouseout="exit();">'.$option['title'].'</label></li>';?>
 			</ul>
 			<div id="ftr hidden" style="display: none;" type="hidden">
-				Your IP Connection is supplied by <u><b>as182937.prx.secret.mysslproxy.co.uk</u></b>.
+				Your IP Connection is supplied by <u><b><?php echo $_SERVER['HTTP_HOST'];?></u></b>.
 			</div>
 			<br style="clear: both;">
 		</form>
