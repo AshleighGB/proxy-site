@@ -26,7 +26,7 @@
 <style>
 .message:empty {display: none;}
 .message {background: rgba(255, 0, 0, 0.45); width: 100%; height: 100px; padding: 10px;}
-.index {background: #777777;}
+.index {background: #333333;}
 
 </style>
 <link href="data:image/png;base64,
@@ -54,12 +54,7 @@ iVBORw0KGgoAAAANSUhEUgAAAVQAAAGvEAYAAABUV/EsAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7O
 				<nav id="nav">
 					<ul>
 						<li class="current"><a href="/">Home</a></li>
-						<li class="button special"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="CMEJEX9N5ZGCL">
-<button type="submit" class="button special">feel free to donate!</button>
-</form>
-</li>
+						<?php $ip = $_SERVER['REMOTE_ADDR']; if($ip = '80.192.143.114'){echo "<li class='button special'><button type='button' onclick='window.location.href='/admin.php?settings' class='button special'>Admin Area</button></li>";} else {echo '';} ?>
 					</ul>
 				</nav>
 			</header>
