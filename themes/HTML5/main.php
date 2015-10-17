@@ -44,7 +44,11 @@ iVBORw0KGgoAAAANSUhEUgAAAVQAAAGvEAYAAABUV/EsAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7O
 <script src="/src/jquery.idletimer.js" type="text/javascript"></script>
 <script src="/src/jquery.idletimeout.js" type="text/javascript"></script>
 <script> var proxyauthkey = 'aWxpa2V0b3N0cm9sbG9udGhlYmVhY2g='; </script>
-
+<script>
+function Admin() {
+  window.location.href = '/admin.php?settings';
+}
+</script>
 <?=injectionJS();?>
 </head>
 <body class="index" style="overflow: hidden;" style="width: 100%; height: 100%;">
@@ -54,11 +58,11 @@ iVBORw0KGgoAAAANSUhEUgAAAVQAAAGvEAYAAABUV/EsAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7O
 				<nav id="nav">
 					<ul>
 						<li class="current"><a href="/">Home</a></li>
-						<?php $ip = $_SERVER['REMOTE_ADDR']; if($ip = '80.192.143.114'){echo "<li class='button special'><button type='button' onclick='window.location.href=/admin.php?settings' class='button special'>Admin Area</button></li>";} else {echo '';} ?>
+						<?php $ip = $_SERVER['REMOTE_ADDR']; if($ip = '80.192.143.114'){echo "<li class='button special'><button type='button' onclick='Admin()' class='button special'>Admin Area</button></li>";} else {echo '';} ?>
 					</ul>
 				</nav>
 			</header>
-
+<?php echo $_SERVER['REMOTE_ADDR'];?>
 		<!-- Banner -->
 			<section id="banner">
 
