@@ -25,8 +25,8 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie/v9.css" /><![endif]-->
 <style>
 .message:empty {display: none;}
-.message {background: #ff0000; width: 100%; height: 100px; padding: 10px;}
-.index {background: #333333;}
+.message {background: rgba(255, 0, 0, 0.45); width: 100%; height: 100px; padding: 10px;}
+.index {background: #777777;}
 
 </style>
 <link href="data:image/png;base64,
