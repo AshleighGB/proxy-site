@@ -90,8 +90,8 @@ function Admin() {
 					</header>
 					<div id="urlform" class="urlform" >
 		<form action="includes/process.php?action=update" method="post" onsubmit="return updateLocation(this);" class="form">
-			<input type="text" name="u" id="input" size="40" class="textbox" autofocus="false" style="border: 1px solid #ffffff;" value="http://dayt.se/">
-			<button type="submit" value="GO!" class="button bg-blue tall" style="color:white; width: 19%;">GO!</button>
+			<input type="text" name="u" id="input" size="40" class="textbox" autofocus="false" style="border: 1px solid #ffffff;" value="http://dayt.se/"><br>
+			<button type="submit" value="GO!" class="button" style="color:white;">GO!</button>
 			<ul id="options">
 				<?php foreach ($toShow as $option) echo '<li><input type="checkbox" name="'.$option['name'].'" id="'.$option['name'].'"'.$option['checked'].'><label for="'.$option['name'].'" class="tooltip" onmouseover="tooltip(\''.$option['escaped_desc'].'\')" onmouseout="exit();">'.$option['title'].'</label></li>';?>
 			</ul>
