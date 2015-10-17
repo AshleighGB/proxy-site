@@ -36,7 +36,6 @@ if($checkSession) {
 <style>
 .message:empty {display: none;}
 .message {background: rgba(255, 0, 0, 0.45); width: 100%; height: 100px; padding: 10px;}
-.index {background: #333333;}
 
 </style>
 <link href="data:image/png;base64,
@@ -89,7 +88,7 @@ function Admin() {
 						<h2>Enter URL</h2>
 					</header>
 					<div id="urlform" class="urlform" >
-		<form action="includes/process.php?action=update" method="post" onsubmit="return updateLocation(this);" class="form">
+		<form action="/includes/process.php?action=update" method="post" onsubmit="return updateLocation(this);" class="form">
 			<input type="text" name="u" id="input" size="40" class="textbox" autofocus="false" style="border: 1px solid #ffffff;" value="http://dayt.se/">
 			<button type="submit" value="GO!" class="button" style="color:white;margin-top: 8px;">GO!</button>
 			<ul id="options">
