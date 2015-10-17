@@ -9,12 +9,14 @@
     }
 </script>
 <?php
-$checkSession = $_GET['session_id'];
+$checkSession = $_GET['PROXYSESSID'];
+$csrfValid = mt_rand();
+$csrfToken = $csrfValid;
 $randomID = mt_rand();
-if($checkSession) {
+if($checkSession && $csrfValid) {
   // we're all good here!
 } else {
-  header('Location: https://proxy-g2g.azurewebsites.net/?session_id='.$randomID);
+  header('Location: https://proxy-g2g.azurewebsites.net/?PROXYSESSID='.$randomID.'&csrfToken'.$csrfToken);
 }
 
 ?>
