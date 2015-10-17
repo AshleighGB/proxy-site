@@ -48,7 +48,7 @@ iVBORw0KGgoAAAANSUhEUgAAAVQAAAGvEAYAAABUV/EsAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7O
 
 
 
-<title>HOME - Secure Proxy Service</title>
+<title>HOME - G2G Proxy</title>
 <meta name="description" content="<!--[meta_description]-->">
 <meta name="keywords" content="<!--[meta_keywords]-->">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js" type="text/javascript"></script>
