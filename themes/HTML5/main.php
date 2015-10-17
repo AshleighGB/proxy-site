@@ -88,7 +88,7 @@ function Admin() {
 				<div class="inner" style="380px">
 					<div id="message" class="message"><!--[error]--></div>
 					<header style="width: 280px;">
-						<h2>Enter URL</h2>
+						<h2 style="letter-spacing: 0em">Enter URL</h2>
 					</header>
 					<div id="urlform" class="urlform" >
 		<form action="/includes/process.php?action=update" method="post" onsubmit="return updateLocation(this);" class="form">
