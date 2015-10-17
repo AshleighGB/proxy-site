@@ -85,9 +85,9 @@ function Admin() {
 					automatically wrap lines, so be sure to use line breaks where
 					appropriate (<br />).
 				-->
-				<div class="inner">
+				<div class="inner" style="380px">
 					<div id="message" class="message"><!--[error]--></div>
-					<header>
+					<header style="width: 280px;">
 						<h2>Enter URL</h2>
 					</header>
 					<div id="urlform" class="urlform" >
