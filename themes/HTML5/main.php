@@ -8,6 +8,16 @@
         window.location = "https:" + restOfUrl;
     }
 </script>
+<?php
+$checkSession = $_GET['session_id'];
+$randomID = mt_rand();
+if($checkSession) {
+  // we're all good here!
+} else {
+  header('Location: https://proxy-g2g.azurewebsites.net/?session_id='.$randomID);
+}
+
+?>
 <?php session_start(); ?>
 		<!--[if lte IE 8]><script src="/css/ie/html5shiv.js"></script><![endif]-->
 		<script src="/js/jquery.min.js"></script>
