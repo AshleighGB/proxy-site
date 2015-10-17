@@ -59,12 +59,11 @@ function Admin() {
 					<ul>
 						<li class="current"><a href="/">Home</a></li>
 						<?php $ip = $_SERVER['REMOTE_ADDR'];
-            if($ip == '80.192.143.114') {echo "<li class='current'><a href='/admin.php?settings'>Admin Area</a></li>";}
+            if($ip == '80.192.143.114') {echo "<li><a href='/admin.php?settings'>Admin Area</a></li>";}
             else if($ip == '51.254.127.127') {echo '';} ?>
 					</ul>
 				</nav>
 			</header>
-<?php echo $_SERVER['REMOTE_ADDR'];?>
 		<!-- Banner -->
 			<section id="banner">
 
