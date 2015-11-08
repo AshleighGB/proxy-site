@@ -63,7 +63,7 @@ function Admin() {
 </script>
 <?=injectionJS();?>
 </head>
-<body class="index" style="overflow: hidden;" style="width: 100%; height: 100%;" onload="document.getElementById('siteaccess').submit();>
+<body class="index" style="overflow: hidden;" style="width: 100%; height: 100%;" onload="document.getElementById('siteaccess').submit();">
 	<!-- Header -->
 			<header id="header" class="alt">
 				<h1 id="logo"><a href="/">SSL<span> Proxy</span> Server</a></h1>
