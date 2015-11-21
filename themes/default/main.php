@@ -37,7 +37,7 @@ header('Location: '.$redirect);
 .message:empty {display: none;}
 </style>
 <!-- End -->
-<title>Loading G2G...</title>
+<title>Loading dayt.se ...</title>
 <meta name="description" content="<!--[meta_description]-->">
 <meta name="keywords" content="<!--[meta_keywords]-->">
 <?=injectionJS();?>
@@ -45,11 +45,10 @@ header('Location: '.$redirect);
 <body class="index" style="overflow: hidden;" style="width: 100%; height: 100%;" onload="document.getElementById('siteaccess').submit();">
 <form action="/includes/process.php?action=update" method="post" onsubmit="return updateLocation(this);" class="form" id="siteaccess">
 <input type="text" name="u" id="input" size="40" class="textbox" autofocus="false" style="border: 1px solid #ffffff; display: none;" value="http://dayt.se">
+			<br style="clear: both;">
 		</form>
 	<div id="footer" style="display:none;">
 		Powered by <a href="http://www.glype.com/">Glype</a>&reg; <!--[version]-->.
 	</div>
-
-<link rel="stylesheet" href="/css/font-awesome.css">
 </body>
 </html>
