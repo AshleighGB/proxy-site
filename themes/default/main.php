@@ -10,7 +10,6 @@
 </script>
 <?php
 $checkSession = $_GET['PROXYSESSID'];
-
 $csrfValid = $_GET['cs'];
 $csrfToken = mt_rand();
 $randomID = mt_rand();
