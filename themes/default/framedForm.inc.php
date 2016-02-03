@@ -79,7 +79,7 @@ echo <<<OUT
       <p>
          
          <b><a style="color: #3b5999;" href="https://secure.mysslproxy.co.uk/">Secure Proxy</a></b>
-         <input type="text" name="u" size="40" value="{$url}" class="url-input" style="width:70%; height: 25px; " />
+         <input type="text" name="u" size="40" value="{$url}" class="url-input" style="width:80%; height: 15px; " />
          <button type="submit" value="Go" class="bg-blue button large" style="color: white; background: #3b5999; height: 25px; padding: 5px;">GO!</button>
          <a href="{$proxy}/index.php" target="_self">home</a>         
       </p>
@@ -92,7 +92,7 @@ OUT;
 
 // Loop through the options and print with appropriate checkedness
 foreach($toShow as $details) { 
-   echo <<<OUT
+echo <<<OUT
          <input type="checkbox" name="{$details['name']}" id="{$details['name']}"{$details['checked']} />
          <label for="{$details['name']}">{$details['title']}</label>
 
