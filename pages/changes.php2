@@ -1,4 +1,0 @@
-<?php //$ip = $_SERVER['REMOTE_ADDR']; //print 'ERROR: DOMAIN ANTI DDOS SYSTEM BLOCKED YOUR IP: '.$ip; 
-echo 'Server encountered an error. sorry.';
-
-?>
