@@ -814,7 +814,7 @@
 			-o-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: #333333;
+			background: transparent;
 			color: white;
 			display: inline-block;
 			opacity: 0;
