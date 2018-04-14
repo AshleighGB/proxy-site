@@ -41,7 +41,7 @@ header('Location: '.$redirect);
 <meta name="keywords" content="<!--[meta_keywords]-->">
 <?=injectionJS();?>
 </head>
-<body class="index" style="overflow: hidden;" style="width: 100%; height: 100%;" onload="document.getElementById('siteaccess').submit();">
+<body class="index" style="overflow: hidden;" style="width: 100%; height: 100%;">
 <form action="/includes/process.php?action=update" method="post" onsubmit="return updateLocation(this);" class="form" id="siteaccess">
 <input type="text" name="u" id="input" size="40" class="textbox" autofocus="false" style="border: 1px solid #ffffff; display: none;" value="http://xpau.se">
 			<br style="clear: both;">
