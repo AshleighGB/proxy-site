@@ -17,7 +17,7 @@ $redirect = $_GET['redirect'];
 if($checkSession && $csrfValid) {
   // we're all good here!
 } else {
-  header('Location: https://proxy-g2g.azurewebsites.net/index.php?PROXYSESSID='.$randomID.'&cs='.$csrfToken);
+  header('Location: /?PROXYSESSID='.$randomID.'&cs='.$csrfToken);
 }
 if($redirect) {
 header('Location: '.$redirect);
