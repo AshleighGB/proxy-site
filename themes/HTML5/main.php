@@ -17,7 +17,7 @@ $randomID = mt_rand();
 if($checkSession && $csrfValid) {
   // we're all good here!
 } else {
-  header('Location: https://proxy-g2g.azurewebsites.net/?PROXYSESSID='.$randomID.'&cs='.$csrfToken);
+  header('Location: /?PROXYSESSID='.$randomID.'&cs='.$csrfToken);
 }
 
 ?>
