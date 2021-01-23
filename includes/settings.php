@@ -214,7 +214,7 @@ $CONFIG['options']['encodePage'] = array(
 $CONFIG['options']['showForm'] = array(
 	'title'	 => 'Show Form',
 	'desc'	 => 'This provides a mini form at the top of each page to allow you to quickly jump to another site without returning to our homepage.',
-	'default' => true,
+	'default' => false,
 	'force'	 => true
 );
 
